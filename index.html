@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- Заголовок страницы в браузере -->
+   <title>ЗП Евроопт</title>
+   <!-- Подключаем CSS -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Кодировка страницы -->
+   <meta charset="UTF-8">
+   <!-- Адаптив -->
+   <meta name="viewport" content="width=device-width, user-scalable=no">
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <h1 class="h1">Подcчет зп в еврике</h1>
+         <div><input type="text" class="input js-string" id="inputString" placeholder="Введите кол-во строк"></div>
+         <div><input type="text" class="input js-claim" placeholder="Введите кол-во претензий"></div>
+         <div><input type="text" class="input js-control" placeholder="Введите штрафы от охраны"></div>
+         <div><input type="text" class="input js-jur" placeholder="Введите оплату за юр. лица"></div>
+         <div><input type="text" class="input js-mot" placeholder="Введите мотивацию за стаж %"></div>
+         <div class="buttons__wrapper">
+            <button class="js-button">Рассчитать</button>
+            <button class="js-delete">Очистить</button>
+         </div>
+         <div class="js-wrapper"></div>
+      </div>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
