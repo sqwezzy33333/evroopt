@@ -17,7 +17,7 @@ function getStrings(value) {
    } else if (value > 13400 && value < 15100) {
       str = 0.097;
    } else if (value > 15100) {
-      str = 0.105;
+      str = 0.11;
    };
    let result = Math.floor(value * str);
    return result;
