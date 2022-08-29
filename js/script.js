@@ -80,6 +80,7 @@ jsBtn.addEventListener('click', () => {
    value = takeControl(value, jsControl.value);
    value = getJur(value, jsJur.value);
    value = getMotivation(value, jsMot.value);
+   value = takeTax(value);
    render(value);
    console.log(value);
 });
